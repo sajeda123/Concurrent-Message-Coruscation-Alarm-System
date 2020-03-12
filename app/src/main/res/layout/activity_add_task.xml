@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:padding="16dp"
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/get_event_title"
+            android:paddingLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:hint="Enter task title"
+            android:background="#fff"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+        <EditText
+            android:id="@+id/get_event_message"
+            android:hint="Enter message"
+            android:layout_weight="1"
+            android:minHeight="100dp"
+            android:gravity="fill_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="10dp"
+            android:layout_marginBottom="5dp"
+            android:textStyle="normal"/>
+
+
+            <EditText
+                android:id="@+id/get_event_date"
+                android:hint="Enter date"
+                android:layout_width="match_parent"
+                android:focusable="false"
+                android:paddingLeft="10dp"
+                android:editable="false"
+                android:layout_height="50dp" />
+
+            <EditText
+                android:hint="Enter time"
+                android:id="@+id/get_event_time"
+                android:focusable="false"
+
+                android:editable="false"
+                android:layout_width="match_parent"
+                android:paddingRight="10dp"
+                android:layout_height="50dp" />
+        <Button
+            android:id="@+id/save_event"
+            android:text="save task"
+            android:textColor="#000"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+</ScrollView>

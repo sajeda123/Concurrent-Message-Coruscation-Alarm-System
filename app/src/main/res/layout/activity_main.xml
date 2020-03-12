@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="#FFD1DB"
+    android:layout_height="match_parent"
+    tools:context="com.example.prapti.birthdays.BirthdayNotificationActivity"
+
+    android:orientation="vertical">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/birthday_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.RecyclerView>
+<android.support.design.widget.FloatingActionButton
+    android:layout_width="wrap_content"
+    android:id="@+id/add_birthday_activity_btn"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:src="@drawable/ic_add_white_24dp"
+    android:layout_height="wrap_content" />
+</RelativeLayout>

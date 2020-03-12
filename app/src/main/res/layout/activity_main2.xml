@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+android:background="#FFD1DB"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="40dp"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="If you want to save any firends\n Birthday, please click Birthday Remainder\n or save any task for remainder in any time."
+            android:layout_width="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="16dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/ic_cake_black_24dp"
+                    android:layout_width="100dp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginRight="20dp"
+                    android:layout_height="100dp" />
+                <Button
+                    android:id="@+id/birthday_alarm"
+
+                    android:text="Birthday Notification"
+                    android:layout_width="150dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:layout_gravity="left"
+                    android:textColor="#fff"
+                    android:background="@color/colorPinkRoseDark"
+
+                    android:layout_marginRight="5dp"
+                    android:layout_height="100dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/ic_alarm_black_24dp"
+                    android:layout_width="100dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="100dp" />
+                <Button
+                    android:id="@+id/task_alarm"
+                    android:layout_width="150dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_height="100dp"
+                    android:textColor="#fff"
+                    android:background="@color/colorPinkRoseDark"
+                    android:layout_gravity="right"
+                    android:text="Task                Notification" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
